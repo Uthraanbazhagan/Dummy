@@ -47,6 +47,8 @@ public class ProductDao {
 				p.setQuantity(rs.getInt(4));
 				products.add(p);
 			}
+			System.out.println("hellooooo");
+			System.out.println("abccccc");
 					return products;
 		}
 
